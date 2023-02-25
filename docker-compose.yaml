@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+    shopware:
+        image: dockware/play:6.4.20.0
+        ports:
+            -   '80:80'
+        volumes:
+            -   './:/var/www/html/custom/apps/ScriptibusDataQualityAudit'
+        container_name: dqa_shopware

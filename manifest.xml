@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-2.0.xsd">
+    <meta>
+        <name>ScriptibusDataQualityAudit</name>
+        <label>Data Quality Audit</label>
+        <label lang="de-DE">Datenqualitätsprüfung</label>
+        <description>Monitor and manage your shops data quality</description>
+        <description lang="de-DE">Überwachen und verwalten Sie die Qualität Ihrer Shop-Daten</description>
+        <author>scriptibus</author>
+        <copyright>(c) by scriptibus</copyright>
+        <version>0.0.5</version>
+        <icon>icon.png</icon>
+        <license>proprietary</license>
+    </meta>
+    <setup>
+        <registrationUrl>http://docker.for.mac.localhost:8000/api/0.0.5/register</registrationUrl>
+        <secret>appsecret</secret>
+    </setup>
+</manifest>
